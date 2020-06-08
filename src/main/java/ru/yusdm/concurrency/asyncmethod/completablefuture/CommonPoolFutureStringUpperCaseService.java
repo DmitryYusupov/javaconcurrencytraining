@@ -30,4 +30,8 @@ public class CommonPoolFutureStringUpperCaseService implements StringUpperCaseSe
         }
     }
 
+    public static void main(String[] args) {
+        new CommonPoolFutureStringUpperCaseService().upperCaseAndPrintService("hello world");
+    }
+
 }
